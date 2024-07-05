@@ -3,13 +3,16 @@
 Na voljo na:
 [semantko.si](https://semantko.si/)
 
-![Semantko logotip](./docs/semantko_logo.png)
+
+![Semantko logotip](./docs/semantko_logo_128.png)
 
 ***
 
 ## **Navodila igre**
 
 Semantko je igra konteksta, katere cilj je odkriti skrivno besedo na podlagi kontekstne bližine drugih besed.
+
+![](docs/predstavitev1.gif)
 
 S pomočjo umetne inteligence in strojnega učenja na raznih slovenskih besedilih je bilo določenih 10.000 samostalniških besed, ki so skrivni besedi po kontekstu najbližje. Vaša naloga je, da poskusite poiskati besedo na 1. mestu, pri tem pa vam bodo pomagale ostale ugotovljene besede. Bližje kot ste prvemu mestu, bolj verjetno je, da se ugotovljena beseda uporablja v istem kontekstu kot skrivna.
 
@@ -23,6 +26,8 @@ Ko vpišete in poiščete dano samostalniško besedo, se vam bo razkrila konteks
 - Pozicije besed lahko posredno razkrivajo besede, ki so bližje tej poziciji.
 - Najbolj zanesljive so besede, ki so pojavljajo v prvih 100 pozicijah, saj lahko že razkrijejo skrivno besedo. Toda, morda ni vedno lahko tako!
 - Na voljo imate namige ali pa se lahko tudi predate.
+
+![](docs/predstavitev2.gif)
 
 ***
 
