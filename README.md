@@ -1,7 +1,7 @@
-# [Semantko: Igra konteksta](https://semantko.si/)
+# [Semantko: Igra konteksta](https://semantko-frontend.onrender.com/)
 
 Na voljo na:
-[semantko.si](https://semantko.si/)
+[semantko.si](https://semantko-frontend.onrender.com/)
 
 
 ![Semantko logotip](./docs/semantko_logo_128.png)
@@ -37,7 +37,7 @@ S pomočjo umetne inteligence in strojnega učenja na raznih slovenskih besedili
 
 Igra je bila inspirirana na podlagi drugih podobnih kontekstnih iger v drugih jezikih ([Semantle](https://semantle.com/), [Contexto.me](https://contexto.me/)), katere cilj je ugotoviti skrivno besedo na podlagi kontekstne oddaljenosti drugih besed.
 
-> Semantko je še v aktivni izdelavi, zato se lahko še pojavljajo težave pri spletni strani ali pri poziciji nekaterih besed! Hvala za razumevanje.
+> Semantko je v izdelavi, zato se lahko še pojavljajo težave pri spletni strani ali pri poziciji nekaterih besed! Hvala za razumevanje. Zaradi neaktivnosti se dnevne skrivne besede ne menjavajo, zato je trenutno samo na voljo ena igra, morda bo v prihodnosti na voljo izbira dnevi.
 V primeru odkritja napak, hroščev ali kakšnih predlogov se lahko obrnete na [Github](https://github.com/martinkorelic/semantko/issues) stran.
 
 > Martin Korelič @ 2023
