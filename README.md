@@ -1,43 +1,55 @@
-# [Semantko: Igra konteksta](https://semantko-frontend.onrender.com/)
+# [Semantko: Slovenska besedna uganka](https://semantko.si)
 
 Na voljo na:
-[semantko.si](https://semantko-frontend.onrender.com/)
+[semantko.si](https://semantko.si)
 
+![Semantko logotip](./docs/semantko_v2_logo_small.png)
 
-![Semantko logotip](./docs/semantko_logo_128.png)
+***
+
+## **Odkrij povezave, ujemi skrivnost!**
+
+Semantko — slovenska besedna uganka. Odkrij skrivno besedo z raziskovanjem omrežja pojmov in semantičnih povezav. Vsak dan nova igra, vsak dan nova skrivnost!
+
+***
+
+## **Kaj je Semantko?**
+
+Semantko je napredna slovenska igra konteksta, kjer je cilj odkriti skrivno besedo na podlagi semantične bližine drugih besed in raziskovanja omrežja pojmov. Igra temelji na umetni inteligenci in velikem omrežju slovenskih pojmov, ki omogoča poglobljeno raziskovanje povezav med besedami.
+
+![](docs/semantko_v2_demo.gif)
 
 ***
 
 ## **Navodila igre**
 
-Semantko je igra konteksta, katere cilj je odkriti skrivno besedo na podlagi kontekstne bližine drugih besed.
+1. **Cilj igre:** Odkrij skrivno besedo, ki je na vrhu lestvice semantične bližine.
+2. **Vnašanje besed:** Vnašaj slovenske samostalnike v ednini (npr. "miza", "avto", "upanje"). Vsaka ugibana beseda se prikaže na lestvici in v omrežju povezav.
+3. **Lestvica:** Vsaka beseda dobi svojo uvrstitev glede na bližino skrivni besedi. Nižja številka pomeni večjo podobnost.
+4. **Omrežje povezav:** Prikazuje, kako so tvoje ugibane besede povezane s skrivno besedo in med seboj. Raziskuj omrežje za dodatne namige!
+5. **Vrste povezav:** Omrežje temelji na različnih vrstah semantičnih povezav (npr. nadpomenke, sopomenke, del-celota, asociacije).
+6. **Namigi:** Uporabi namige ali preglej pretekle igre za dodatno pomoč.
+7. **Pravila:** Upoštevajo se le slovenski samostalniki v ednini. Prepogoste ali preveč oddaljene besede niso prikazane.
 
-![](docs/predstavitev1.gif)
+### **Dodatne funkcionalnosti**
 
-S pomočjo umetne inteligence in strojnega učenja na raznih slovenskih besedilih je bilo določenih 10.000 samostalniških besed, ki so skrivni besedi po kontekstu najbližje. Vaša naloga je, da poskusite poiskati besedo na 1. mestu, pri tem pa vam bodo pomagale ostale ugotovljene besede. Bližje kot ste prvemu mestu, bolj verjetno je, da se ugotovljena beseda uporablja v istem kontekstu kot skrivna.
-
-Ko vpišete in poiščete dano samostalniško besedo, se vam bo razkrila kontekstna pozicija te besede. Če ima beseda prepogosto uporabo ali pa je morda predaleč oddaljena od skrivne besede, se pozicija ne bo izpisala.
-
-Še nekaj nasvetov in pravil:
-
-- Kontekstno podobne besede so besede, ki se v stavkih pogosto pojavljajo skupaj.
-- Upoštevajo se besede slovenskega jezika (morda tudi nekatere tujke).
-- Vse besede so samostalniki.
-- Pozicije besed lahko posredno razkrivajo besede, ki so bližje tej poziciji.
-- Najbolj zanesljive so besede, ki so pojavljajo v prvih 100 pozicijah, saj lahko že razkrijejo skrivno besedo. Toda, morda ni vedno lahko tako!
-- Na voljo imate namige ali pa se lahko tudi predate.
-
-![](docs/predstavitev2.gif)
+- **Pretekle igre:** Preglej in ponovno igraj pretekle izzive.
+- **Nastavitve:** Prilagodi število prikazanih vozlišč v omrežju, vključi temni način ali izbriši zgodovino.
+- **Vrste povezav:** Spoznaj različne vrste semantičnih povezav v posebnem pogledu.
+- **Napredna vizualizacija:** Omrežje omogoča povečavo, fokusiranje in prilagajanje pogleda.
 
 ***
 
-## **Informacije**
+## **Tehnične informacije**
 
-S pomočjo umetne inteligence in strojnega učenja na raznih slovenskih besedilih so bile določene kontekstne oddaljenosti slovenskih besed. Njihova natančnost morda ni najboljša, toda določene besede skupaj se med seboj smiselno povezujejo.
+- **Omrežje pojmov:** Temelji na slovenskem omrežju **PojemNet** (50.000+ pojmov, 500.000+ povezav - kmalu javno dostopen).
+- **Algoritmi:** Uporabljeni so napredni algoritmi umetne inteligence in analize omrežij za izračun bližin in povezav.
+- **Navdih:** Igra je navdihnjena po [Semantle](https://semantle.com/) in [Contexto.me](https://contexto.me/), a z edinstvenim poudarkom na vizualizaciji omrežja in slovenskih podatkih.
 
-Igra je bila inspirirana na podlagi drugih podobnih kontekstnih iger v drugih jezikih ([Semantle](https://semantle.com/), [Contexto.me](https://contexto.me/)), katere cilj je ugotoviti skrivno besedo na podlagi kontekstne oddaljenosti drugih besed.
+***
 
-> Semantko je v izdelavi, zato se lahko še pojavljajo težave pri spletni strani ali pri poziciji nekaterih besed! Hvala za razumevanje. Zaradi neaktivnosti se dnevne skrivne besede ne menjavajo, zato je trenutno samo na voljo ena igra, morda bo v prihodnosti na voljo izbira dnevi.
-V primeru odkritja napak, hroščev ali kakšnih predlogov se lahko obrnete na [Github](https://github.com/martinkorelic/semantko/issues) stran.
+> Predlogi in prijava napak na [Github](https://github.com/martinkorelic/semantko/issues).
 
-> Martin Korelič @ 2023
+> Martin Korelič @ 2026  
+
+***
